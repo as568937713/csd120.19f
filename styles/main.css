@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+body {
+    background: #ffecc1;
+}
+
+h1 {
+    color: rgba(137, 43, 226, 0.8);
+}
+
+header>nav>ul>li>a {
+    color: red;
+}
+
+.byline {
+    display: block;
+    opacity: 0.5;
+}
+
+#useful-links>ul>li>a {
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
