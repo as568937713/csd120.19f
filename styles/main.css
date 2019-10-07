@@ -6,6 +6,13 @@ body {
 h1 {
     color: rgba(137, 43, 226, 0.8);
 }
+h2 {
+    color: rgba(137, 43, 226, 0.8);
+}
+
+a { 
+    color: purple;
+}
 
 header>nav>ul>li>a {
     color: red;
@@ -13,11 +20,11 @@ header>nav>ul>li>a {
 
 .byline {
     display: block;
-    opacity: 0.5;
+    color: rgba(0,0,0,0.5);
 }
 
-#useful-links>ul>li>a {
-    color: blueviolet;
+#page-copyright {
+    color: red;
 }
 
 
