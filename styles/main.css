@@ -1,6 +1,12 @@
 @CHARSET "UTF-8";
+* {
+    text-align: center;
+    font-size: 12px;
+}
+
 body {
     background: #ffecc1;
+    font-family: Sans-serif;
 }
 
 h1 {
@@ -14,25 +20,35 @@ header>nav>ul>li>a {
 .byline {
     display: block;
     opacity: 0.5;
+    font-size: 70%;
 }
 
 #useful-links>ul>li>a {
     color: blueviolet;
 }
 
+a {
+    list-style: none;
+    text-decoration: none;
+}
 
+ul,
+ol {
+    width: fit-content;
+    margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ul {
+    list-style-type: square;
+}
+/*
+ul>*,
+ol>* {
+    text-align: left;
+}
+*/
+#page-copyright {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
 

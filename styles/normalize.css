@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+h1,
+h2 {
+    background: url(../images/gradient.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#bio {
+    text-indent: 3em;
+}
