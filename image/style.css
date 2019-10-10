@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #ffffcb;
+}
+
+hr {
+    margin: 0 auto;
+}
+
+p {
+    margin: 1em 0;
+}
+
+h2 {
+    margin: 0.75em;
+}
+
+#view {
+    padding: 0.5em;
+    width: 700px;
+    height: 320px;
+    margin: 1.5em auto 0;
+    border: 5px solid #aff;
+    background: white;
+}
+
+#view>#top,
+#view>#bottom {
+    width: 100%;
+}
+
+#view>#top {
+    height: 40%;
+}
+
+#view>#bottom {
+    height: 60%;
+}
+
+#left,
+#right {
+    float: left;
+    height: 100%;
+}
+
+#left {
+    width: 53%;
+}
+
+#right {
+    width: 47%;
+}
