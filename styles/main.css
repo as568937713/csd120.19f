@@ -1,20 +1,30 @@
 @CHARSET "UTF-8";
-* {
-    text-align: center;
-    font-size: 12px;
-}
 
 body {
     background: #ffecc1;
-    font-family: Sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
     color: rgba(137, 43, 226, 0.8);
+    background-image: url('../image/gradient.png');
+    background-repeat: repeat-x;
+    font-family: 'Proza Libre', sans-serif;   
 }
+h2 {
+    color: rgba(137, 43, 226, 0.8);
+    background-image: url('../image/gradient.png');
+    background-repeat: repeat-x;
+    font-family: 'Proza Libre', sans-serif;   
+}
+
 
 header>nav>ul>li>a {
     color: red;
+}
+
+header nav ul {
+    list-style: none;
 }
 
 .byline {
@@ -28,7 +38,6 @@ header>nav>ul>li>a {
 }
 
 a {
-    list-style: none;
     text-decoration: none;
 }
 
@@ -48,7 +57,16 @@ ol>* {
 }
 */
 #page-copyright {
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     text-transform: uppercase;
+}
+
+.bio p {
+    text-indent: 3em;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
 }
 
