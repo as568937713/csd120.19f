@@ -1,23 +1,15 @@
 @CHARSET "UTF-8";
-
 body {
-    background: #ffecc1;
+    background: #ffdd8d;
     font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-    color: rgba(137, 43, 226, 0.8);
-    background-image: url('../image/gradient.png');
+h1,
+h2{
+    background-image: url('../images/gradient.png');
     background-repeat: repeat-x;
-    font-family: 'Proza Libre', sans-serif;   
+    font-family: 'Proza Libre', sans-serif;
 }
-h2 {
-    color: rgba(137, 43, 226, 0.8);
-    background-image: url('../image/gradient.png');
-    background-repeat: repeat-x;
-    font-family: 'Proza Libre', sans-serif;   
-}
-
 
 header>nav>ul>li>a {
     color: red;
@@ -33,7 +25,8 @@ header nav ul {
     font-size: 70%;
 }
 
-#useful-links>ul>li>a {
+#useful-links>ul>li>a,
+footer hr {
     color: blueviolet;
 }
 
@@ -50,12 +43,8 @@ ol {
 ul {
     list-style-type: square;
 }
-/*
-ul>*,
-ol>* {
-    text-align: left;
-}
-*/
+
+
 #page-copyright {
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -68,5 +57,44 @@ ol>* {
 footer {
     text-align: center;
     font-size: 12px;
+    margin-bottom: 2em;
 }
 
+header>nav>ul {
+    margin: 0;
+}
+
+.width-wrap {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 2em;
+    margin-bottom: 3em;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background: #ffecc1;
+}
+
+figure {
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+figure img {
+    width: 80%;
+}
+
+footer hr {
+    width: 50%;
+    min-width: 300px;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    border-top: 3px solid;
+    border-bottom: 8px dotted;
+}
+
+h1,
+h2{
+    background: linear-gradient(to bottom, rgb(182, 141, 221), rgb(94, 1, 180));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
