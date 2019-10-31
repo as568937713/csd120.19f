@@ -62,6 +62,7 @@ footer {
 
 header>nav>ul {
     margin: 0;
+    padding: 0;
 }
 
 .width-wrap {
@@ -70,25 +71,31 @@ header>nav>ul {
     padding: 2em;
     margin-bottom: 3em;
     border: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: none;
     background: #ffecc1;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
 }
 
 figure {
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 
 figure img {
     width: 80%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 footer hr {
-    width: 50%;
+    width: 50vw;
     min-width: 300px;
     margin-top: 3em;
     margin-bottom: 2em;
     border-top: 3px solid;
     border-bottom: 8px dotted;
+    border-left: none;
+    border-right: none;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 h1,
@@ -97,4 +104,5 @@ h2{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
