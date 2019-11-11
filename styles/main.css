@@ -5,7 +5,7 @@ body {
 }
 
 h1,
-h2{
+h2 {
     background-image: url('../images/gradient.png');
     background-repeat: repeat-x;
     font-family: 'Proza Libre', sans-serif;
@@ -44,7 +44,6 @@ ul {
     list-style-type: square;
 }
 
-
 #page-copyright {
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -74,8 +73,10 @@ header>nav>ul {
 }
 
 figure {
+    position: relative;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
     text-align: center;
+    float: right;
 }
 
 figure img {
@@ -92,9 +93,70 @@ footer hr {
 }
 
 h1,
-h2{
+h2 {
     background: linear-gradient(to bottom, rgb(182, 141, 221), rgb(94, 1, 180));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+}
+
+.paperclip {
+    width: 50px;
+    height: 50px;
+    background: url(../images/paperclip.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -10px;
+    right: -7px;
+}
+
+.mugshot {
+    margin: 1em auto 0;
+}
+
+header {
+    width: calc(100% + 4em);
+    float: right;
+    border: 4px rgba(0, 0, 0, 0.1);
+    border-top-style: solid;
+    margin-right: -2em;
+}
+
+header li {
+    /* display: initial; */
+    margin: 1em 3em;
+}
+
+header nav {
+    float: right;
+    width: auto;
+    display: inline-block;
+    margin: -4px 2em 0;
+    padding: 0 2em;
+    border: 1px rgba(0, 0, 0, 0.3);
+    border-bottom-style: solid;
+}
+
+header nav li {
+    float: left;
+    padding: 1em 0 0.5em;
+    margin: 0 1em;
+}
+
+header nav li:hover {
+    margin-top: 0px;
+    border-top-style: solid;
+    border-width: 4px;
+    border-color: fuchsia;
+}
+
+.back-to-top {
+    font-size: 2.5em;
+    opacity: 0.5;
+    text-align: right;
+    margin-right: 0.5em;
+}
+
+.back-to-top:hover {
+    opacity: 1;
 }
