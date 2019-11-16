@@ -36,7 +36,7 @@ a {
 
 ul,
 ol {
-    width: fit-content;
+    /* width: fit-content; */
     margin: 0 auto;
 }
 
@@ -63,6 +63,63 @@ header>nav>ul {
     margin: 0;
 }
 
+/*mian*/
+main{
+    margin-bottom: 6%;
+}
+main::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+main>.bio{
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+main>.bio.width-100{
+    width: 100%;
+}
+.mugshot{
+    position: relative;
+}
+main>.bio>.group::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+main>.bio>.group>.left{
+   float: left;
+   width: 70%;
+}
+main>.bio>.group>.mugshot{
+    float: right;
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+
+}
+main>.bio>.group>.mugshot>a>img{
+    width: 100%;
+    height: 100%;
+}
+main>.imgs{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:  20px 0;
+    /* flex-direction: column; */
+}
+main>.imgs>a{
+    /* flex: 1; */
+    /* width: 25%; */
+    margin-bottom: 2%;
+}
+main>.imgs>a>img{
+    width: 100%;
+}
 .width-wrap {
     margin: 0 auto;
     max-width: 1024px;
@@ -110,16 +167,14 @@ h2 {
     right: -7px;
 }
 
-.mugshot {
-    margin: 1em auto 0;
-}
+
 
 header {
-    width: calc(100% + 4em);
-    float: right;
+    /* width: calc(100% + 4em); */
+    /* float: right; */
     border: 4px rgba(0, 0, 0, 0.1);
     border-top-style: solid;
-    margin-right: -2em;
+    /* margin-right: -2em; */
 }
 
 header li {
@@ -128,23 +183,28 @@ header li {
 }
 
 header nav {
-    float: right;
-    width: auto;
-    display: inline-block;
+    /* float: right; */
+    /* width: auto; */
+    /* display: inline-block; */
     margin: -4px 2em 0;
     padding: 0 2em;
     border: 1px rgba(0, 0, 0, 0.3);
     border-bottom-style: solid;
 }
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
 
 header nav li {
-    float: left;
+    /* float: left; */
     padding: 1em 0 0.5em;
     margin: 0 1em;
 }
 
 header nav li:hover {
     margin-top: 0px;
+    box-sizing: border-box;
     border-top-style: solid;
     border-width: 4px;
     border-color: fuchsia;
