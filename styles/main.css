@@ -100,9 +100,11 @@ main>.bio>.group>.mugshot>a>img{
 }
 .gallery {
     grid-column: span 2;
+    width: 100%;
 }
 .gallery-thumbnails {
     display: grid;
+    width: 100%;
     grid-template-columns: 25% 25% 25% 25%;
 }
 .gallery-thumbnails img {
